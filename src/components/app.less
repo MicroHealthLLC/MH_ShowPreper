@@ -1,0 +1,39 @@
+/* Base Application Styles */
+@import "~bootstrap/less/variables";
+
+html,
+body {
+  height: 100%;
+}
+
+#app {
+  height: 100%;
+  .sp-main-container {
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+    height: 100%;
+  }
+}
+
+.centered-child {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
