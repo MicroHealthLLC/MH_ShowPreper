@@ -1,2 +1,2 @@
-# MH_ShowPreper
-App uses ShowPreper
+# ShowPreper 
+See [product site](https://abbr.github.io/ShowPreper/).
