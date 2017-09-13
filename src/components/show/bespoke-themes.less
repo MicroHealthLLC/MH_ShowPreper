@@ -1,0 +1,205 @@
+/*!
+ * Bespoke.js Demo Themes
+ *
+ * These styles are hard-coded to be pre-processor agnostic.
+ * In reality, you should probably use -prefix-free or LESS / SCSS / Stylus.
+ *
+ * This is only scratching the surfact of what can be done.
+ * Be creative and make something that surprises people! ;)
+ *
+ */
+
+/* Cube Theme */
+.cube section.bespoke-before {
+  transform: translateX(-332px) rotateY(-70deg) translateX(-652px)
+    rotateY(-110deg) translateX(-530px);
+}
+.cube section.bespoke-before-1 {
+  transform: translateX(-332px) rotateY(-70deg) translateX(-512px);
+  opacity: 0.5;
+}
+.cube section.bespoke-after {
+  transform: translateX(332px) rotateY(70deg) translateX(652px) rotateY(110deg)
+    translateX(530px);
+}
+.cube section.bespoke-after-1 {
+  transform: translateX(332px) rotateY(70deg) translateX(512px);
+  opacity: 0.5;
+}
+
+/* Concave Theme */
+.concave section.bespoke-before {
+  transform: translateX(-800px) rotateY(90deg) translateX(-800px);
+}
+.concave section.bespoke-before-1 {
+  transform: translateX(-330px) rotateY(58deg) translateX(-320px);
+  opacity: 0.4;
+}
+.concave section.bespoke-after {
+  transform: translateX(800px) rotateY(-90deg) translateX(800px);
+}
+.concave section.bespoke-after-1 {
+  transform: translateX(330px) rotateY(-58deg) translateX(320px);
+  opacity: 0.4;
+}
+
+/* Coverflow Theme */
+.coverflow section.bespoke-before {
+  transform: translateX(-270px) rotateY(45deg) scale(0.6);
+  z-index: 6;
+}
+.coverflow section.bespoke-before-3 {
+  transform: translateX(-230px) rotateY(45deg) scale(0.6);
+  opacity: 0.1;
+  z-index: 7;
+}
+.coverflow section.bespoke-before-2 {
+  transform: translateX(-190px) rotateY(45deg) scale(0.6);
+  opacity: 0.2;
+  z-index: 8;
+}
+.coverflow section.bespoke-before-1 {
+  transform: translateX(-150px) rotateY(45deg) scale(0.6);
+  opacity: 0.3;
+  z-index: 9;
+}
+.coverflow section.bespoke-active {
+  z-index: 10;
+}
+.coverflow section.bespoke-after {
+  transform: translateX(270px) rotateY(-45deg) scale(0.6);
+  z-index: 6;
+}
+.coverflow section.bespoke-after-1 {
+  transform: translateX(150px) rotateY(-45deg) scale(0.6);
+  opacity: 0.3;
+  z-index: 9;
+}
+.coverflow section.bespoke-after-2 {
+  transform: translateX(190px) rotateY(-45deg) scale(0.6);
+  opacity: 0.2;
+  z-index: 8;
+}
+.coverflow section.bespoke-after-3 {
+  transform: translateX(230px) rotateY(-45deg) scale(0.6);
+  opacity: 0.1;
+  z-index: 7;
+}
+
+/* Classic Theme */
+.classic section.bespoke-before {
+  transform: translate3d(-1920px, 0, 0);
+}
+.classic section.bespoke-before-2 {
+  transform: translate3d(-1280px, 0, 0);
+  opacity: 0.1;
+}
+.classic section.bespoke-before-1 {
+  transform: translate3d(-640px, 0, 0);
+  opacity: 0.3;
+}
+.classic section.bespoke-after {
+  transform: translate3d(1920px, 0, 0);
+}
+.classic section.bespoke-after-2 {
+  transform: translate3d(1280px, 0, 0);
+  opacity: 0.1;
+}
+.classic section.bespoke-after-1 {
+  transform: translate3d(640px, 0, 0);
+  opacity: 0.3;
+}
+
+/* Carousel Theme */
+.carousel section.bespoke-before {
+  transform: translateX(-980px) rotateY(-72deg) translateX(-1290px);
+  opacity: 0;
+}
+.carousel section.bespoke-before-2 {
+  transform: translateX(-640px) rotateY(-52deg) translateX(-830px);
+  opacity: 0.3;
+}
+.carousel section.bespoke-before-1 {
+  transform: translateX(-310px) rotateY(-30deg) translateX(-340px);
+  opacity: 0.5;
+}
+.carousel section.bespoke-after {
+  transform: translateX(980px) rotateY(72deg) translateX(1290px);
+  opacity: 0;
+}
+.carousel section.bespoke-after-1 {
+  transform: translateX(310px) rotateY(30deg) translateX(340px);
+  opacity: 0.5;
+}
+.carousel section.bespoke-after-2 {
+  transform: translateX(640px) rotateY(52deg) translateX(830px);
+  opacity: 0.3;
+}
+
+.cubeb section.bespoke-slide {
+  -o-transform-origin: 50% 50% -512px;
+  -ms-transform-origin: 50% 50% -512px;
+  -moz-transform-origin: 50% 50% -512px;
+  -webkit-transform-origin: 50% 50% -512px;
+  transform-origin: 50% 50% -512px;
+}
+
+.cubeb section {
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.cubeb section.bespoke-before {
+  -o-transform: rotateY(-90deg);
+  -ms-transform: rotateY(-90deg);
+  -moz-transform: rotateY(-90deg);
+  -webkit-transform: rotateY(-90deg);
+  transform: rotateY(-90deg);
+}
+
+.cubeb section.bespoke-after {
+  -o-transform: rotateY(90deg);
+  -ms-transform: rotateY(90deg);
+  -moz-transform: rotateY(90deg);
+  -webkit-transform: rotateY(90deg);
+  transform: rotateY(90deg);
+}
+
+.cards section.bespoke-before {
+  -moz-transform: translateZ(40px) rotateY(-60deg) translateX(-400px)
+    rotateZ(120deg);
+  -ms-transform: translateZ(40px) rotateY(-60deg) translateX(-400px)
+    rotateZ(120deg);
+  -o-transform: translateZ(40px) rotateY(-60deg) translateX(-400px)
+    rotateZ(120deg);
+  -webkit-transform: translateZ(40px) rotateY(-60deg) translateX(-400px)
+    rotateZ(120deg);
+  transform: translateZ(40px) rotateY(-60deg) translateX(-400px) rotateZ(120deg);
+}
+
+.cards section.bespoke-slide {
+  -o-transform-origin: 0 100% 0;
+  -ms-transform-origin: 0 100% 0;
+  -moz-transform-origin: 0 100% 0;
+  -webkit-transform-origin: 0 100% 0;
+  transform-origin: 0 100% 0;
+}
+
+.cards section.bespoke-active {
+  opacity: 1;
+}
+
+.cards section.bespoke-inactive {
+  opacity: 0;
+}
+
+.cards section.bespoke-after {
+  -o-transform: translate3d(50px, 0, -100px);
+  -ms-transform: translate3d(50px, 0, -100px);
+  -moz-transform: translate3d(50px, 0, -100px);
+  -webkit-transform: translate3d(50px, 0, -100px);
+  transform: translate3d(50px, 0, -100px);
+}

@@ -1,0 +1,42 @@
+#app {
+  .sp-main-container {
+    .sp-header {
+      &.navbar {
+        margin-bottom: 0px;
+        .navbar-header .dropdown {
+          float: left;
+          .badge {
+            position: absolute;
+            right: 5px;
+          }
+          .navbar-brand {
+            img {
+              display: inline;
+            }
+          }
+        }
+        .sp-view-btns li button {
+          width: 70pt;
+        }
+        .btn-group > .btn + .dropdown-toggle {
+          padding: 16px 8px;
+        }
+        .navbar-right > *,
+        .navbar-left > * {
+          display: inline-block;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
+
+.navbar-right {float:right; margin-top:-70px;}
+
+.insert-object {float:right; margin:0px 15px 20px 20px;}
+
+#sp-navbar-collapse-1 {height: 160px;}
+
+@media all and (min-width: 760px) {
+    .insert-object {margin:-60px 80px 20px 20px;}
+}

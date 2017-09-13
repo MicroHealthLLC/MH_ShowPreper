@@ -1,0 +1,18 @@
+article {
+  perspective: 600px;
+}
+
+section {
+  position: absolute;
+  opacity: 0;
+}
+
+body,
+section.bespoke-slide {
+  transition: transform .7s ease, opacity .7s ease, background-color .7s ease;
+}
+
+section.bespoke-active {
+  opacity: 1;
+  z-index: 1;
+}
